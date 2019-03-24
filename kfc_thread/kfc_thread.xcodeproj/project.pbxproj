@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1913D72247AD62004AED23 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1913D62247AD62004AED23 /* main.c */; };
+		ED1913EC2247ADC9004AED23 /* kfc_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1913DF2247ADC9004AED23 /* kfc_timer.c */; };
+		ED1913ED2247ADC9004AED23 /* kfc_driver.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1913E02247ADC9004AED23 /* kfc_driver.c */; };
+		ED1913EE2247ADC9004AED23 /* kfc_switch.s in Sources */ = {isa = PBXBuildFile; fileRef = ED1913E62247ADC9004AED23 /* kfc_switch.s */; };
+		ED1913EF2247ADC9004AED23 /* kfc_thread_core.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1913EA2247ADC9004AED23 /* kfc_thread_core.c */; };
+		ED1913F02247ADC9004AED23 /* kfc_list.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1913EB2247ADC9004AED23 /* kfc_list.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED1913D12247AD62004AED23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED1913D32247AD62004AED23 /* kfc_thread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kfc_thread; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1913D62247AD62004AED23 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED1913DF2247ADC9004AED23 /* kfc_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kfc_timer.c; sourceTree = "<group>"; };
+		ED1913E02247ADC9004AED23 /* kfc_driver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kfc_driver.c; sourceTree = "<group>"; };
+		ED1913E12247ADC9004AED23 /* kfc_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_timer.h; sourceTree = "<group>"; };
+		ED1913E22247ADC9004AED23 /* kfc_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_driver.h; sourceTree = "<group>"; };
+		ED1913E32247ADC9004AED23 /* kfc_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_thread.h; sourceTree = "<group>"; };
+		ED1913E52247ADC9004AED23 /* kfc_thread_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_thread_core.h; sourceTree = "<group>"; };
+		ED1913E62247ADC9004AED23 /* kfc_switch.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = kfc_switch.s; sourceTree = "<group>"; };
+		ED1913E72247ADC9004AED23 /* kfc_switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_switch.h; sourceTree = "<group>"; };
+		ED1913E82247ADC9004AED23 /* kfc_thread_macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_thread_macro.h; sourceTree = "<group>"; };
+		ED1913E92247ADC9004AED23 /* kfc_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfc_list.h; sourceTree = "<group>"; };
+		ED1913EA2247ADC9004AED23 /* kfc_thread_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kfc_thread_core.c; sourceTree = "<group>"; };
+		ED1913EB2247ADC9004AED23 /* kfc_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kfc_list.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1913D02247AD62004AED23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1913CA2247AD62004AED23 = {
+			isa = PBXGroup;
+			children = (
+				ED1913D52247AD62004AED23 /* kfc_thread */,
+				ED1913D42247AD62004AED23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1913D42247AD62004AED23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1913D32247AD62004AED23 /* kfc_thread */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1913D52247AD62004AED23 /* kfc_thread */ = {
+			isa = PBXGroup;
+			children = (
+				ED1913DD2247ADC9004AED23 /* kfc_thread */,
+				ED1913D62247AD62004AED23 /* main.c */,
+			);
+			path = kfc_thread;
+			sourceTree = "<group>";
+		};
+		ED1913DD2247ADC9004AED23 /* kfc_thread */ = {
+			isa = PBXGroup;
+			children = (
+				ED1913E32247ADC9004AED23 /* kfc_thread.h */,
+				ED1913DE2247ADC9004AED23 /* driver */,
+				ED1913E42247ADC9004AED23 /* thread */,
+			);
+			path = kfc_thread;
+			sourceTree = "<group>";
+		};
+		ED1913DE2247ADC9004AED23 /* driver */ = {
+			isa = PBXGroup;
+			children = (
+				ED1913DF2247ADC9004AED23 /* kfc_timer.c */,
+				ED1913E02247ADC9004AED23 /* kfc_driver.c */,
+				ED1913E12247ADC9004AED23 /* kfc_timer.h */,
+				ED1913E22247ADC9004AED23 /* kfc_driver.h */,
+			);
+			path = driver;
+			sourceTree = "<group>";
+		};
+		ED1913E42247ADC9004AED23 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				ED1913E52247ADC9004AED23 /* kfc_thread_core.h */,
+				ED1913E62247ADC9004AED23 /* kfc_switch.s */,
+				ED1913E72247ADC9004AED23 /* kfc_switch.h */,
+				ED1913E82247ADC9004AED23 /* kfc_thread_macro.h */,
+				ED1913E92247ADC9004AED23 /* kfc_list.h */,
+				ED1913EA2247ADC9004AED23 /* kfc_thread_core.c */,
+				ED1913EB2247ADC9004AED23 /* kfc_list.c */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1913D22247AD62004AED23 /* kfc_thread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1913DA2247AD62004AED23 /* Build configuration list for PBXNativeTarget "kfc_thread" */;
+			buildPhases = (
+				ED1913CF2247AD62004AED23 /* Sources */,
+				ED1913D02247AD62004AED23 /* Frameworks */,
+				ED1913D12247AD62004AED23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kfc_thread;
+			productName = kfc_thread;
+			productReference = ED1913D32247AD62004AED23 /* kfc_thread */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1913CB2247AD62004AED23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "徐仲平";
+				TargetAttributes = {
+					ED1913D22247AD62004AED23 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ED1913CE2247AD62004AED23 /* Build configuration list for PBXProject "kfc_thread" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED1913CA2247AD62004AED23;
+			productRefGroup = ED1913D42247AD62004AED23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1913D22247AD62004AED23 /* kfc_thread */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1913CF2247AD62004AED23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1913F02247ADC9004AED23 /* kfc_list.c in Sources */,
+				ED1913EF2247ADC9004AED23 /* kfc_thread_core.c in Sources */,
+				ED1913EC2247ADC9004AED23 /* kfc_timer.c in Sources */,
+				ED1913D72247AD62004AED23 /* main.c in Sources */,
+				ED1913EE2247ADC9004AED23 /* kfc_switch.s in Sources */,
+				ED1913ED2247ADC9004AED23 /* kfc_driver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED1913D82247AD62004AED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED1913D92247AD62004AED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED1913DB2247AD62004AED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED1913DC2247AD62004AED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1913CE2247AD62004AED23 /* Build configuration list for PBXProject "kfc_thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1913D82247AD62004AED23 /* Debug */,
+				ED1913D92247AD62004AED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1913DA2247AD62004AED23 /* Build configuration list for PBXNativeTarget "kfc_thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1913DB2247AD62004AED23 /* Debug */,
+				ED1913DC2247AD62004AED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED1913CB2247AD62004AED23 /* Project object */;
+}
