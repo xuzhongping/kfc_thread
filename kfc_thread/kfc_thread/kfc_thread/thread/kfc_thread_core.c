@@ -47,6 +47,7 @@ static void _kfc_thread_died(void){
     kfc_thread *next = elem2entry(kfc_thread, ready_tag, thread_tag);
     next->status = KFC_THREAD_RUNNING;
     _scheduler.runnning_thread = next;
+    _kfc_list_remove(&_scheduler.total_list, &died_thread->total_tag);
     KFC_ALIGN_RSP_16; 
     free(died_thread);
     if (next->first_call & 0x1) {
