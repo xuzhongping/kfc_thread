@@ -93,10 +93,10 @@
 		ED1913DE2247ADC9004AED23 /* driver */ = {
 			isa = PBXGroup;
 			children = (
-				ED1913DF2247ADC9004AED23 /* kfc_timer.c */,
-				ED1913E02247ADC9004AED23 /* kfc_driver.c */,
 				ED1913E12247ADC9004AED23 /* kfc_timer.h */,
+				ED1913DF2247ADC9004AED23 /* kfc_timer.c */,
 				ED1913E22247ADC9004AED23 /* kfc_driver.h */,
+				ED1913E02247ADC9004AED23 /* kfc_driver.c */,
 			);
 			path = driver;
 			sourceTree = "<group>";

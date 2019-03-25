@@ -37,7 +37,7 @@ void * _kfc_signal_alrm_loop(void *arg){
 }
 
 void _kfc_sigset_init(){
-    sigaddset(&_new_set, SIGALRM);
+    sigfillset(&_new_set);
 }
 
 void kfc_driver_init(){
