@@ -6,7 +6,7 @@ This is a simple user-level preemptive thread library for study.
 ## 设计
 
 * pcb及线程栈
-![](https://ws3.sinaimg.cn/large/006tKfTcly1g1l7i4y67mj310q0lsgnz.jpg)
+![](https://github.com/JungHsu/kfc_thread/kfc_thread/Resource/WX20190330-223221@2x.jpg)
 
 * 简单起见，栈的大小为4096 x 3 - 120 = 12168字节
 
