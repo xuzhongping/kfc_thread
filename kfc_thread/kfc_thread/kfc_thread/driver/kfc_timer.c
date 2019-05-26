@@ -13,7 +13,6 @@
 #include "kfc_driver.h"
 
 void _kfc_timer_handle(int signum){
-    
     _KFC_DRIVER_CLOSE;
 
     kfc_thread *cur_thread = _kfc_running_thread();

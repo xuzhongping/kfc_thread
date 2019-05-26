@@ -104,12 +104,12 @@
 		ED1913E42247ADC9004AED23 /* thread */ = {
 			isa = PBXGroup;
 			children = (
-				ED1913E52247ADC9004AED23 /* kfc_thread_core.h */,
 				ED1913E62247ADC9004AED23 /* kfc_switch.s */,
 				ED1913E72247ADC9004AED23 /* kfc_switch.h */,
 				ED1913E82247ADC9004AED23 /* kfc_thread_macro.h */,
-				ED1913E92247ADC9004AED23 /* kfc_list.h */,
+				ED1913E52247ADC9004AED23 /* kfc_thread_core.h */,
 				ED1913EA2247ADC9004AED23 /* kfc_thread_core.c */,
+				ED1913E92247ADC9004AED23 /* kfc_list.h */,
 				ED1913EB2247ADC9004AED23 /* kfc_list.c */,
 			);
 			path = thread;
